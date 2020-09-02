@@ -25,14 +25,16 @@
     background-attachment: scroll;
 }
 
+.endbody{
+    background-image: url(../images/thankyou.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+
 h1 ,h2{
     color:black;
 }
-h3{
-    color: red;
-    font-size: 100px;
-    font-style: italic;
-}
+
 .reg {
     margin: auto;
     width: 50%;
@@ -57,7 +59,7 @@ h3{
     margin: 4% 8%;
     width: 50%;
     background-color: white;
-    box-shadow: 0 0px 12px 2px black;
+    box-shadow: 0 0px 12px 1px black;
     color: black;
     padding: 15px;
     border-radius: 20px;
