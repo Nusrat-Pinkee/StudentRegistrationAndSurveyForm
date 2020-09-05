@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Student Registration Form</title>
+        <title>Registration Form</title>
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body class="regbody">
-        </br><h1>Northern University of Business and Technology, Khulna</h1><br>
-        <div class= "reg">
-            </br><h2>Student Registration Form</h2></br>
-            <form method="post" id="reg" action=". .php">
-                <label>First Name:</label></br>
-                <input class="formi" type="text" name="fname" id="fname" placeholder="Enter your First Name"></br>
-                <label>Last Name:</label></br>
-                <input class="formi" type="text" name="lname" id="lname" placeholder="Enter your Last Name"></br>
-                <label>Email:</label></br>
-                <input class="formi" type="email" name="email" id="email" placeholder="Enter your mail id"></br>
-                <label>Password:</label></br>
-                <input class="formi" type="password" name="password" id="password" placeholder="Enter your Passward"></br>
-                <label>Confirm Password:</label></br>
-                <input class="formi" type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm your Passward"></br>
-                <label>Date of Birth:</label></br>
-                <input class="formi" type="date" name="date" id="date"></br>
-                <label>Mobile Number:</label></br>
-                <input class="formi" type="tel" name="num" id="num" placeholder="Enter your Mobile no"></br>
-                <label for="gender">Gender:</label></br>
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label></br>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label></br></br>
-                <label>Address:</label></br></br>
-                <textarea class="formi" rows="10" cols="40" placeholder="Enter your address" id="text"></textarea></br>
-                <input type="checkbox" id="tandc" name="tandc">
-                <label for="tandc">I agree to all the terms and conditions</label></br></br>
-                <div>
-                    <button class="buttons" type= "submit" id="submit"><a href="survey.html">Register Here</a></button>
-                </div>
-                </br>
-            </form>  
-        </div></br></br>
+        <header>
+            <h2>Student Registration And Survey Form</h2>
+        </header>
+        <div class="reg">
+            <div class= "box">
+                <h2>Student Registration Form</h2><br>
+                <form>
+                    <label>First Name:</label><br>
+                    <input class="forminput"  type="text" name="fname" id="fname" placeholder="Enter your First Name"><br>
+                    <label>Last Name:</label><br>
+                    <input class="forminput"  type="text" name="lname" id="lname" placeholder="Enter your Last Name"><br>
+                    <label>Email:</label><br>
+                    <input class="forminput"  type="email" name="email" id="email" placeholder="Enter your mail id"><br>
+                    <label>Password:</label><br>
+                    <input class="forminput"  type="password" name="password" id="password" placeholder="Enter your Passward"><br>
+                    <label>Confirm Password:</label><br>
+                    <input class="forminput"  type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm your Passward"><br>
+                    <label>Date of Birth:</label><br>
+                    <input class="forminput"  type="date" name="date" id="date"><br>
+                    <label>Mobile Number:</label><br>
+                    <input class="forminput"  type="tel" name="num" id="num" placeholder="Enter your Mobile no"><br>
+                    <label for="gender">Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label class="formlabel" for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label class="formlabel" for="female">Female</label><br><br>
+                    <label>Address:</label><br><br>
+                    <textarea class="forminput"  rows="5" cols="65" placeholder="Enter your address" id="text"></textarea><br>
+                    <input type="checkbox" id="tandc" name="tandc">
+                    <label for="tandc">I agree to all the terms and conditions</label><br><br>
+                    <div>
+                        <button class="button" type= "submit" id="submit"><a href="survey.html">Register Here</a></button>
+                    </div>
+                </form>  
+            </div>
+        </div>
     </body>
 </html>
